@@ -34,17 +34,19 @@ z-index: 0;
   position: absolute;
   margin-top: 30px;
   margin-left: 64px;
+  order: 1; 
   
 }
 .header__title{
   display:flex; 
-  align-items: center;
+  justify-content: center;
   width: 730px;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: normal;
   Z-index: 3; 
+  border-style: solid; 
 }
 .header__subtitle{
   position: absolute; 
