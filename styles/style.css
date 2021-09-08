@@ -1,4 +1,5 @@
 .page {
+  position: relative;
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
@@ -6,7 +7,14 @@
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
+  padding:0; 
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #F2F2F2;
+  z-index: -6;
+}
+
+  .shape{
+  background-color: #2F80ED
 }
 
 .header {
@@ -16,10 +24,55 @@
   /* parameters for the header section */
 }
 
+.logo{
+z-index: 1;
+height: 31px;
+width: 154px;
+z-index: 0;
+}
+.logo_place_header{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 64px;
+  
+}
+.header__title{
+  display:flex; 
+  align-items: center;
+  width: 730px;
+  margin-left: 64px;
+  line-height: 96px;
+  font-size: 102px;
+  font-weight: normal;
+  Z-index: 3; 
+}
+.header__subtitle{
+  position: absolute; 
+  width: 388px;
+  margin-left: 64px; 
+  margin-bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+
+}
+.link{
+  color: #2F80ED;
+}
+.header__main-illustration{
+  position: absolute; 
+  bottom: 0;
+  right: 0; 
+  z-index: -1;
+}
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right:0; 
   height: 568px;
   width: 568px;
+  z-index: -2; 
 }
 
 /* including elements with key-value modifiers */
