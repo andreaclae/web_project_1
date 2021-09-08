@@ -1,5 +1,4 @@
 .page {
-  position: relative;
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
   /* so here we've set a minimum page width */
@@ -7,76 +6,68 @@
   /* here we've set a maximum page width */
   margin: 0 auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  padding:0; 
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  background-color: #F2F2F2;
-  z-index: -6;
-}
-
-  .shape{
-  background-color: #2F80ED
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
+  position: relative;
+  display: flex;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  z-index: 1;
+  background-color: #f2f2f2;
   /* parameters for the header section */
 }
 
-.logo{
-z-index: 1;
-height: 31px;
-width: 154px;
-z-index: 0;
+.logo {
+  height: 31px;
+  width: 154px;
+  z-index: 1;
 }
-.logo_place_header{
+.logo_place_header {
   position: absolute;
-  margin-top: 30px;
-  margin-left: 64px;
-
-  
+  top: 30px;
+  left: 64px;
 }
-.header__title{
-  display:flex; 
-  justify-content: center;
+.header__title {
+  align-self: center;
   width: 730px;
+  margin: 0;
   margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: normal;
-  Z-index: 3; 
-  border-style: solid; 
 }
-.header__subtitle{
-  position: absolute; 
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
   width: 388px;
-  margin-left: 64px; 
-  margin-bottom: 30px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-
 }
-.link{
-  color: #2F80ED;
+.link {
+  color: #2f80ed;
 }
-.header__main-illustration{
-  position: absolute; 
+.header__main-illustration {
+  position: absolute;
   bottom: 0;
-  right: 0; 
-  z-index: -1;
-  width: 756px; 
+  right: 0;
+  width: 756px;
   height: 608px;
 }
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   position: absolute;
+  background-color: #2f80ed;
   top: 64px;
-  right:0; 
+  right: 0;
   height: 568px;
   width: 568px;
-  z-index: -2; 
+  z-index: -1;
 }
 
 /* including elements with key-value modifiers */
