@@ -64,6 +64,8 @@ z-index: 0;
   bottom: 0;
   right: 0; 
   z-index: -1;
+  width: 756px; 
+  height: 608px;
 }
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
