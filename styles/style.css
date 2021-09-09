@@ -91,7 +91,6 @@
 .main-text {
   width: 80%;
 }
-
 .paragraph {
   margin-top: 0;
   margin-bottom: 30px;
@@ -104,6 +103,43 @@
   font-size: 24px;
   font-weight: bold;
 }
+.section-title {
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section-subtitle {
+  text-align: center;
+  margin-bottom: 60px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+.table {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+.cell {
+  width: 250px;
+  padding: 25px;
+  vertical-align: top;
+  text-align: left;
+}
+
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
   width: 200px;
