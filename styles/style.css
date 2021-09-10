@@ -277,7 +277,7 @@
 
 .footer__columns {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .logo__place__footer {
@@ -298,6 +298,7 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   width: 90%;
+  margin: 0 auto;
 }
 
 .footer__column_content_about {
@@ -317,6 +318,10 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.footer__column-link {
+  color: white;
 }
 
 .footer__social-icons {
