@@ -47,11 +47,11 @@
 @import url("../blocks/kaufman/kaufman.css");
 @import url("../blocks/table/__theme/table__theme_dark.css");
 @import url("../blocks/table/__cell/__theme/table__cell__theme_dark.css");
-@import url("../blocks/section-subtitle/__theme/section-subtitle__theme_dark.css");
+@import url("../blocks/section-title/__theme/section-title__theme-dark.css");
+@import url("../blocks/section-subtitle/__theme/section-subtitle__theme-dark.css");
 @import url("../blocks/table/__cell/__theme/table__cell__theme_dark.css");
 @import url("../blocks/table/__heading/__theme/table__heading__theme_dark.css");
 @import url("../blocks/table/__text/__theme/table__text__theme_dark.css");
-@import url("../blocks/section-title/__theme/section-title__theme_dark.css");
 
 @import url("../blocks/kaufman/__triangle/kaufman__triangle.css");
 @import url("../blocks/table/table.css");
