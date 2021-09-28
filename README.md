@@ -1,5 +1,5 @@
-#Web Project 1 - Sprint 2
-##By: Andrea Claeyssen
+**Web Project 1 - Sprint 2**
+**_By: Andrea Claeyssen_**
 
 ---
 
