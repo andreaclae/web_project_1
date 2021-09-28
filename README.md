@@ -1,5 +1,7 @@
-#WEb Project 1 - Sprint 2#
-##By: Andrea Claeyssen##
+#Web Project 1 - Sprint 2
+##By: Andrea Claeyssen
+
+---
 
 This is my first project where I have used HTML and CSS. I have utilized flex boxes, tables, z-index, animations, transitions, images, videos, and links.
 
