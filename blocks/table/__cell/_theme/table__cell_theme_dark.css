@@ -1,10 +1,6 @@
 /* including elements with key-value modifiers */
-.table__cell__theme_dark {
-  width: 200px;
+.table__cell_theme_dark {
   color: white;
   margin-right: 0;
   margin-top: 80px;
-  padding: 25px;
-  vertical-align: top;
-  text-align: left;
 }

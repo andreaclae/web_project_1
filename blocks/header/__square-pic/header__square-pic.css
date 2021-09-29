@@ -8,5 +8,5 @@
   width: 568px;
   z-index: -1;
   transform: rotate(15deg);
-  animation: rotation 20s 0s reverse infinite linear;
+  animation: rotation 20s 0s infinite linear;
 }

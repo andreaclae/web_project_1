@@ -4,4 +4,6 @@
   font-weight: normal;
   margin-left: 48px;
   color: #2f80ed;
+  white-space: nowrap;
+  text-decoration: none;
 }
