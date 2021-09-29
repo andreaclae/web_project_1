@@ -6,7 +6,6 @@
   right: 0;
   height: 568px;
   width: 568px;
-  z-index: -1;
+  z-index: -4;
   transform: rotate(15deg);
-  animation: rotation 20s 0s infinite linear;
 }
