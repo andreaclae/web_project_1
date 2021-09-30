@@ -4,12 +4,6 @@
   font-size: 60px;
   font-weight: bold;
   width: 60%;
-  margin: 0 auto;
-}
-.section-title {
-  width: 60%;
-  text-align: center;
+  margin: auto;
   margin-bottom: 20px;
-  line-height: 1.15;
-  font-size: 60px;
 }

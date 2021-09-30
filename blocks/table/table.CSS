@@ -1,6 +1,5 @@
 .table {
-  display: flex;
-  justify-content: space-between;
   width: 1100px;
-  margin: 0 auto;
+  margin: auto;
+  border-spacing: 25px 60px;
 }
