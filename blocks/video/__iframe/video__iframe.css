@@ -4,6 +4,6 @@
   width: 560px;
   height: 315px;
 }
-:first-child.video__iframe {
+.video__iframe:first-child {
   margin-right: 20px;
 }

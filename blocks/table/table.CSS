@@ -3,8 +3,8 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   margin: 0 auto;
-  gap: 60px 30px;
   list-style: none;
+  margin-top: 60px;
+  justify-content: space-around;
 }
