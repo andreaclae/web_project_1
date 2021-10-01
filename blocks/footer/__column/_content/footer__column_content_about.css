@@ -1,4 +1,5 @@
 .footer__column_content_about {
   display: flex;
   flex-direction: column;
+  margin-right: 150px;
 }
