@@ -7,4 +7,6 @@
   color: #1f1f1f;
   box-sizing: border-box;
   padding-bottom: 40px;
+  min-height: 350px;
+  display: flex;
 }
